@@ -1,0 +1,41 @@
+{
+  "name": "ts-es6-starter",
+  "version": "0.0.1",
+  "description": "Typescript to ES6 to ES5 Starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nikochan2k",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.5.2",
+    "babel-plugin-inferno": "^0.2.11",
+    "babel-plugin-syntax-jsx": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0",
+    "del": "^2.0.2",
+    "espower-typescript": "^5.0.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-espower": "^1.0.2",
+    "gulp-mocha": "^2.2.0",
+    "gulp-newer": "^1.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tsconfig-update": "^1.1.1",
+    "gulp-tslint": "^4.3.2",
+    "gulp-typedoc": "^1.2.1",
+    "gulp-typescript": "^2.10.0",
+    "gulp-webpack": "^1.5.0",
+    "mocha": "^2.3.4",
+    "power-assert": "^1.2.0",
+    "sinon": "^1.17.2",
+    "typescript": "^1.7.5"
+  },
+  "dependencies": {
+    "inferno": "^0.5.22",
+    "inferno-component": "^0.5.22",
+    "inferno-dom": "^0.5.22"
+  }
+}

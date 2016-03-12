@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "outDir": "transpiled",
+        "listFiles": true,
+        "sourceMap": true,
+        "removeComments": true,
+        "jsx": "preserve",
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true
+    },
+    "filesGlob": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
+    "compileOnSave": false,
+    "formatCodeOptions": {
+        "indentSize": 2,
+        "tabSize": 2,
+        "newLineCharacter": "\r\n",
+        "convertTabsToSpaces": true,
+        "insertSpaceAfterCommaDelimiter": true,
+        "insertSpaceAfterSemicolonInForStatements": true,
+        "insertSpaceBeforeAndAfterBinaryOperators": true,
+        "insertSpaceAfterKeywordsInControlFlowStatements": true,
+        "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+        "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+        "placeOpenBraceOnNewLineForFunctions": false,
+        "placeOpenBraceOnNewLineForControlBlocks": false
+    },
+    "files": [
+        "src/typings/inferno-component.d.ts",
+        "src/typings/inferno-dom.d.ts",
+        "src/typings/inferno-jsx.d.ts",
+        "src/typings/inferno-server.d.ts",
+        "src/typings/inferno.d.ts",
+        "src/main/client/playground.tsx"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

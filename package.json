@@ -36,6 +36,7 @@
   "dependencies": {
     "inferno": "^0.5.22",
     "inferno-component": "^0.5.22",
-    "inferno-dom": "^0.5.22"
+    "inferno-dom": "^0.5.22",
+    "inferno-server": "^0.5.22"
   }
 }

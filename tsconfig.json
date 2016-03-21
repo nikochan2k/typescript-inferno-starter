@@ -37,6 +37,7 @@
         "src/typings/inferno-jsx.d.ts",
         "src/typings/inferno-server.d.ts",
         "src/typings/inferno.d.ts",
+        "src/main/client/benchmark.tsx",
         "src/main/client/playground.tsx"
     ],
     "atom": {

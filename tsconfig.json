@@ -10,7 +10,8 @@
         "removeComments": true,
         "jsx": "preserve",
         "noImplicitReturns": true,
-        "noFallthroughCasesInSwitch": true
+        "noFallthroughCasesInSwitch": true,
+        "experimentalDecorators": true
     },
     "filesGlob": [
         "src/**/*.ts",
